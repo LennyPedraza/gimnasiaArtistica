@@ -5,6 +5,18 @@
   background-color: black;
   color: antiquewhite;
 }
+* h1 {
+  font-family: fantasy;
+  text-align: center;
+}
+* h2 {
+  font-family: fantasy;
+  text-align: center;
+}
+* h3 {
+  font-family: fantasy;
+  text-align: center;
+}
 
 main {
   padding: 20px 15%;
