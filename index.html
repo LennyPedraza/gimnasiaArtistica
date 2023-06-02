@@ -10,17 +10,21 @@
 </head>
 
 <body>
-  <nav>
-    <a href="#encabezado">Que es la gimnasia</a>
-    <a href="#atletas">Atletas Olimpicas</a>
-
-  </nav>
-  <header>
-    <H1 id="encabezado" class="principal-title"> <i>Gimnasia Artistica</i> </H1>
+  <header class="container-header">
+    <nav class="container-nav">
+      <a href="#encabezado">Que es la gimnasia</a>
+      <a href="#atletas">Atletas Olimpicas</a>
+      <a href="#informacion">Informacion</a>
+      <a href="#recursos">Recursos</a>
+      <a href="#diapositivas">Diapositivas</a>
+      <a href="#video">Video</a>
+      <a href="#audio">Audio</a>
+    </nav>
   </header>
-  <main>
+  <main class="container-main">
+    <H1 id="encabezado" class="principal-title"> <i>Gimnasia Artistica</i> </H1>
     <section>
-      <h2 class="subtitle"> Qué es la gimnasia artística?</h2>
+      <h2 class="subtitle"> ¿Qué es la gimnasia artística?</h2>
       <p id="body-text">
         La gimnasia artística es una modalidad de gimnasia que consiste en la realización de una composición
         coreográfica, combinando de forma simultánea y a una alta velocidad, movimientos corporales.<br>
@@ -29,6 +33,7 @@
         un deporte olímpico en el que mujeres y hombres compiten por separado en diferentes aparatos.
         La gimnasia artística femenina presenta cuatro modalidades principales:
       </p>
+      <br>
       <ul id="list-categorias">
         <li>Barras asimétricas</li>
         <li>Barra de equilibrio</li>
@@ -36,10 +41,9 @@
         <li>Salto de potro</li>
       </ul>
     </section>
-    <section>
+    <section class="container-atletas">
       <h3 id="subtitle-part">Participantes de olimpiadas</h3>
       <article id="atletas" class="container-gymnastics">
-
         <figure>
           <a href="https://es.m.wikipedia.org/wiki/V%C4%9Bra_%C4%8C%C3%A1slavsk%C3%A1" target="_blank">
             <img class="gymnastic"
@@ -50,7 +54,7 @@
           </a>
         </figure>
         <figure>
-          <a href="https://es.m.wikipedia.org/wiki/Shawn_Johnson">
+          <a href="https://es.m.wikipedia.org/wiki/Shawn_Johnson" target="_blank">
             <img class="gymnastic"
               src="https://media-cldnry.s-nbcnews.com/image/upload/t_fit-760w,f_auto,q_auto:best/newscms/2019_42/1493574/shawn-johnson-toe-today-inline-191014.jpg"
               alt="Shaw">
@@ -58,17 +62,81 @@
           </a>
         </figure>
         <figure>
-          <a href="https://es.m.wikipedia.org/wiki/Alexa_Moreno">
+          <a href="https://es.m.wikipedia.org/wiki/Alexa_Moreno" target="_blank">
             <img class="gymnastic"
               src="https://www.jornada.com.mx/ultimashst19/2021/07/26/alexa-moreno-pasa-a-la-final-de-salto-de-caballo-2345.html/alexa-moreno-3791.html/image_large"
               alt="Alexa Moreno">
-            <figcaption> <b> Alexa Moreno</b> </figcaption>
+            <figcaption> <b>Alexa Moreno</b> </figcaption>
           </a>
         </figure>
       </article>
-      
+    </section>
+    <section class="container-medallero">
+      <h3>Medallero Olimpico</h3>
+      <table>
+        <tr>
+          <th>Deportista</th>
+          <th>País</th>
+          <th>Oro</th>
+          <th>Plata</th>
+          <th>Bronce</th>
+          <th>Total</th>
+        </tr>
+        <tr>
+          <td>Larisa Latynina</td>
+          <td>	Unión Soviética (URSS)</td>
+          <td>9</td>
+          <td>5</td>
+          <td>4</td>
+          <td>18</td>
+        </tr>
+        <tr>
+          <td>Vera Caslavska</td>
+          <td>Checoslovaquia</td>
+          <td>4</td>
+          <td>0</td>
+          <td>7</td>
+          <td>11</td>
+        </tr>
+        <tr>
+          <td>Ágnes Keleti</td>
+          <td>Hungría</td>
+          <td>5</td>
+          <td>3</td>
+          <td>2</td>
+          <td>10</td>
+        </tr>
+        <tr>
+          <td>Nadia Comaneci</td>
+          <td>Rumania</td>
+          <td>5</td>
+          <td>3</td>
+          <td>1</td>
+          <td>9</td>
+        </tr>
+        <tr>
+          <td>Polina Astakhova</td>
+          <td>Unión Soviética (URSS)</td>
+          <td>5</td>
+          <td>2</td>
+          <td>3</td>
+          <td>10</td>
+        </tr>
+        <tr>
+          <td>Simone Biles</td>
+          <td>USA</td>
+          <td>4</td>
+          <td>0</td>
+          <td>1</td>
+          <td>5</td>
+        </tr>
+      </table>
+
     </section>
   </main>
+  <footer>
+
+  </footer>
 </body>
 
 </html>

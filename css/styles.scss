@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: antiquewhite;
+}
+
+main {
+    padding: 20px 15%;
+}
+
+.container-header {
+    nav {
+        margin-top: 15px;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    a {
+        width: 130px;
+        margin: 6px;
+        padding-top: 4px;
+        text-align: center;
+        text-decoration: none;
+        font-family: sans-serif;
+        color: beige;
+        font-size: small;
+    }
+
+    a:hover {
+        border: 1px solid hotpink;
+        border-radius: 10px;
+        color: hotpink;
+        height: 20px;
+    }
+}
+
+.container-main {
+    .principal-title {
+        text-align: center;
+    }
+
+    .subtitle {
+        text-align: left;
+        margin-top: 25px;
+    }
+
+    #body-text {
+        margin-top: 15px;
+    }
+
+    .container-atletas {
+        margin-top: 35px;
+
+        h3 {
+            text-align: center;
+        }
+
+        .container-gymnastics {
+            margin-top: 30px;
+            display: flex;
+
+            figure {
+                width: 75vw;
+                max-width: 1000px;
+                min-width: 320px;
+                margin: auto;
+            }
+
+            img {
+                width: 250px;
+                height: 250px;
+            }
+        }
+    }
+
+}
+.container-medallero{
+    h3{
+        text-align: center;
+        margin-top: 70px;
+    }
+    table{
+        border:1px solid aqua;
+        margin-top: 40px;
+        th{
+            width: 175px;
+            height: 50px;
+            border:1px solid aqua;
+            font-size: medium;
+        }
+        td{
+            font-size: 14px;
+            text-align: center;
+            height: 25px;
+            border: 1px solid aqua;
+        }
+    }
+}

@@ -1,49 +1,85 @@
 * {
-    background-color: black;
-    color: bisque;
-    box-sizing: border-box;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: black;
+  color: antiquewhite;
 }
 
-nav{
-    color: bisque;
-}
-.principal-title{
-    text-align: center;
-}
-.principal-title > i  {
-    color: hotpink;
+main {
+  padding: 20px 15%;
 }
 
-.subtitle{
-    color: rgba(255, 105, 180, 0.466);
+.container-header nav {
+  margin-top: 15px;
+  display: flex;
+  justify-content: flex-end;
+}
+.container-header a {
+  width: 130px;
+  margin: 6px;
+  padding-top: 4px;
+  text-align: center;
+  text-decoration: none;
+  font-family: sans-serif;
+  color: beige;
+  font-size: small;
+}
+.container-header a:hover {
+  border: 1px solid hotpink;
+  border-radius: 10px;
+  color: hotpink;
+  height: 20px;
 }
 
-#body-text{
-    width: 1050px;
-    font-size: 19px;
+.container-main .principal-title {
+  text-align: center;
 }
- #list-categorias > li{
-    list-style: none;
-    font-size: 19px;
- }
-
- .container-gymnastics{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
- }
-
-#subtitle-part{
-    text-align: center;
+.container-main .subtitle {
+  text-align: left;
+  margin-top: 25px;
 }
- .gymnastic{
-    width: 350px;
-    height: 300px;
-    object-fit: fill;
- }
+.container-main #body-text {
+  margin-top: 15px;
+}
+.container-main .container-atletas {
+  margin-top: 35px;
+}
+.container-main .container-atletas h3 {
+  text-align: center;
+}
+.container-main .container-atletas .container-gymnastics {
+  margin-top: 30px;
+  display: flex;
+}
+.container-main .container-atletas .container-gymnastics figure {
+  width: 75vw;
+  max-width: 1000px;
+  min-width: 320px;
+  margin: auto;
+}
+.container-main .container-atletas .container-gymnastics img {
+  width: 250px;
+  height: 250px;
+}
 
- figure > figcaption{
-    text-align: center;
-
- }
+.container-medallero h3 {
+  text-align: center;
+  margin-top: 70px;
+}
+.container-medallero table {
+  border: 1px solid aqua;
+  margin-top: 40px;
+}
+.container-medallero table th {
+  width: 175px;
+  height: 50px;
+  border: 1px solid aqua;
+  font-size: medium;
+}
+.container-medallero table td {
+  font-size: 14px;
+  text-align: center;
+  height: 25px;
+  border: 1px solid aqua;
+}/*# sourceMappingURL=styles.css.map */
