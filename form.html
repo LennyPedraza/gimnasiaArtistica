@@ -4,17 +4,70 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <form id="commentForm">
-        <label for="name">Nombre:</label>
-        <input type="text" id="name" name="name" required><br><br>
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required><br><br>  
-        <label for="comment">Comentario:</label><br>
-        <textarea id="comment" name="comment" rows="4" cols="50" required></textarea><br><br>
-        <input type="submit" value="Comentar">
-      </form>
+    <main>
+        <section>
+            <article id="6">
+                <h2>Compartenos que te parecio este articulo</h2>
+                <form action="JS/ejemplo.js" method="post">
+                    <fieldset>
+                    <legend></legend>
+                    <p>
+                        Te gustaria que realizaramos algun otro articulo sobre otro deporte??
+                      <br>
+                      Dejanos tu opinión
+
+                    </p>
+                    <label for="la1">
+                        Nombre completo:
+                        <input type="text" id="la1" size="60" required placeholder="Lenny Cocom Pedraza">
+                    </label>
+                    <br><br>
+                    <label for="la2">
+                        E-mail:
+                        <input id="la2" type="email" size="60" required placeholder="ejemplo@live.com.mx">
+                    </label>
+                    <br><br>
+                    <label for="la3">
+                        Número telefónico:
+                        <input type="tel" name="telefono" id="la3" placeholder="Telefono" required>
+                    </label>
+                    <br><br>
+                    <label for="la4">
+                        Selecciona algun deporte
+                        <br>
+                        <input type="radio">Natación
+                        <input type="radio">Crosfit
+                        <input type="radio">Ballet
+                        <input type="radio">Beisbol
+                        <input type="radio">Skate 
+                    </label>
+                    <br><br>
+                    <label for="la5">
+                        Adjunta una foto tuya haciendo un deporte
+                        <br>
+                        <input type="file" accept=".jpg, .png, .pdf" title="Solo acepta formatos .jpg, png, .pdf">
+                    </label>
+                    <br><br>
+                    <label for="la6">
+                       Tus comentarios
+                        <br>
+                    <textarea name="area-de-texto" id="text1" cols="130" rows="10" placeholder="Dejanos todos tus comentarios" required></textarea>
+                </label>
+                <br><br>
+                <label for="la7">
+                <button type="submit">Enviar </button>
+                </label>
+                <label for="la8">
+                <button type="reset">Restablecer</button>
+                </label>
+                </fieldset>
+                </form>
+            </article>
+        </section>
+    </main>
 </body>
 </html>
