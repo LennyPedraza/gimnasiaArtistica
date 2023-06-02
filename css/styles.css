@@ -21,6 +21,9 @@
 main {
   padding: 20px 15%;
 }
+main li {
+  list-style: none;
+}
 
 .container-header nav {
   margin-top: 15px;
