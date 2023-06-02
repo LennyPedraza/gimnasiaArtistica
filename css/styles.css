@@ -1,0 +1,49 @@
+* {
+    background-color: black;
+    color: bisque;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav{
+    color: bisque;
+}
+.principal-title{
+    text-align: center;
+}
+.principal-title > i  {
+    color: hotpink;
+}
+
+.subtitle{
+    color: rgba(255, 105, 180, 0.466);
+}
+
+#body-text{
+    width: 1050px;
+    font-size: 19px;
+}
+ #list-categorias > li{
+    list-style: none;
+    font-size: 19px;
+ }
+
+ .container-gymnastics{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+ }
+
+#subtitle-part{
+    text-align: center;
+}
+ .gymnastic{
+    width: 350px;
+    height: 300px;
+    object-fit: fill;
+ }
+
+ figure > figcaption{
+    text-align: center;
+
+ }
