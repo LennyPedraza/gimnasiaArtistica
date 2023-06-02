@@ -74,6 +74,11 @@ main {
   width: 250px;
   height: 250px;
 }
+.container-main .container-atletas .container-gymnastics img:hover {
+  width: 280px;
+  height: 280px;
+  border: 3px dotted blue;
+}
 
 .container-medallero h3 {
   text-align: center;
