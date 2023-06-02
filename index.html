@@ -19,6 +19,7 @@
       <a href="#diapositivas">Diapositivas</a>
       <a href="#video">Video</a>
       <a href="#audio">Audio</a>
+      <a href="./form.html" target="_blank">Formulario</a>
     </nav>
   </header>
   <main class="container-main">
@@ -84,7 +85,7 @@
         </tr>
         <tr>
           <td>Larisa Latynina</td>
-          <td>	Unión Soviética (URSS)</td>
+          <td> Unión Soviética (URSS)</td>
           <td>9</td>
           <td>5</td>
           <td>4</td>
@@ -131,25 +132,41 @@
           <td>5</td>
         </tr>
       </table>
+    </section>
+    <section class="container-multimedia">
+      
+      <article id="diapositivas">
+        <h2>Presentación de Diapositivas</h2>
+        <p>A continuación se muestra una presentación de diapositivas:</p>
+        <iframe src="./diapositivas/Metodologia_de_la_Gimnasia.pdf"></iframe>
+    </article>
+
+    <article id="video">
+        <h2>Video sobre Estudiantes</h2>
+        <p>Aquí hay un video sobre estudiantes:</p>
+        <video width="800" height="450" controls poster="../Etiquetas HTML/imagenes/imagen.jpeg">
+            <source src="../Etiquetas HTML/videos/video-ejemplo.mp4">
+            
+        </video>
+        <iframe width="560" height="315" src="https://www.youtube.com/watch?v=aQ5MpvP8lcc" title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+    </article>
+
+    <article id="audio">
+        <h2>Audio sobre Estudiantes</h2>
+        <p>Aquí hay un archivo de audio sobre estudiantes:</p>
+
+        <audio controls>
+            <source src="./audio/typical-trap-loop-2b-130751.mp3">
+        </audio>
+    </article>
 
     </section>
   </main>
   <footer>
 
-    <form id="commentForm">
-      <label for="name">Nombre:</label>
-      <input type="text" id="name" name="name" required><br><br>
-  
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required><br><br>
-  
-      <label for="comment">Comentario:</label><br>
-      <textarea id="comment" name="comment" rows="4" cols="50" required></textarea><br><br>
-  
-      <input type="submit" value="Comentar">
-    </form>
-  
-  
   </footer>
 </body>
 
